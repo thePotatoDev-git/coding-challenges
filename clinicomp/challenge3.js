@@ -32,6 +32,7 @@ function solution(A, B) {
       }
     }
   
+    // If last char of result is 'a', add 'b' first and vice versa
     if (result[result.length - 1] === 'a') {
       result += 'b'.repeat(currentB);
       result += 'a'.repeat(currentA);
